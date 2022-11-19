@@ -674,6 +674,7 @@ body {
 
 .modal-form-agreement-desc {
   font-size: 14px;
+  user-select: none;
 }
 
 .modal-form-agreement-link {
