@@ -1,4 +1,4 @@
-# goit-markup-hw-03
+# goit-markup-hw-06
 
-ДЗ 3
+ДЗ 6
 
