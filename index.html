@@ -484,6 +484,7 @@
       </section>
     </main>
     <footer class="ftr">
+      <div class="container oll-ftr">
       <div class="part container">
         <div>
           <a class="logo-ft link" href="./index.html"
@@ -573,16 +574,21 @@
           </ul>
         </div>
       </div>
+      
       <div class="part3">
-        <p>Підпишіться на розсилку</p>
-        <input class="modal-form-ftr" type="text" name="user-mail-ftr">
+        <p class="ftr-sub">Підпишіться на розсилку</p>
+        <div class="area-sub">
+        <label for="">
+        <input class="modal-form-ftr" type="email" name="user-mail-ftr" placeholder="E-mail">
+        </label>
         <button class="ftr-btn" type="submit">
           Підписатися
-          <svg class="ftr-icon" width="18" height="18">
+          <svg class="ftr-icon" width="24" height="24">
             <use href="./images/sprite.svg#icon-send"></use>
           </svg>
         </button>
       </div>
+    </div>
     </footer>
 
 <div class="backdrop is-hidden" data-modal >
@@ -605,7 +611,7 @@
       </div>
       
         <label class="modal-form-label" for="user_phone">Телефон</label>
-        <div class="modal-form-wrapper" >
+        <div class="modal-form-wrapper">
           <input class="modal-form-field" type="tel" name="user-phone" id="user_phone" minlength="10" required/>
           <svg class="modal-form-icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-phone"></use>
@@ -625,9 +631,7 @@
           name="user_message" 
           id="user_message"  
           rows="7"
-          placeholder="Введіть текст">
-
-          </textarea>
+          placeholder="Введіть текст"></textarea>
     </div>
     <div class="modal-form-agreement" role="group" >
       <input class="modal-form-checkbox" type="checkbox" id="user_agreement">
