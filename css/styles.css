@@ -539,8 +539,9 @@ body {
 }
 
 .ftr-btn {
-  /* display: flex; */
-  /* align-items: baseline; */
+  display: flex;
+ align-items:center;
+ justify-content: center;
   margin: 0;
   background-color: var(--accent-color);
 
@@ -596,9 +597,10 @@ body {
   align-items: baseline;
 }
 
-/* .thumb{
-  align-items: baseline;
-} */
+.ftr-icon{
+  margin-left: 10px;
+}
+
 
 /*------------------------modal----------------------- */
 .backdrop {
