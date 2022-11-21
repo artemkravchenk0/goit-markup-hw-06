@@ -562,6 +562,8 @@ body {
   /* padding: 10px 52px; */
 }
 .modal-form-ftr {
+  color:#ffffff;
+
   background-color: transparent;
   width: 358px;
   height: 50px;
@@ -657,6 +659,14 @@ body {
   background-color: #fff;
   border-radius: 50%;
   cursor: pointer;
+  fill: #212121;
+  transition: fill 250ms;
+}
+
+
+
+.modal-btn:hover {
+  fill: var(--accent-color);
 }
 
 .modal-form-group {
@@ -677,6 +687,7 @@ body {
 }
 
 .modal-form-label {
+  display: block;
   font-weight: 400;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -738,12 +749,14 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .modal-form-agreement-desc {
   font-size: 14px;
   user-select: none;
+  
 }
 
 .modal-form-agreement-link {
